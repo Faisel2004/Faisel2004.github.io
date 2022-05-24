@@ -1,0 +1,130 @@
+.testing{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255,255,255, 0.5)), url("../NeonImage.jpeg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    opacity: 0.6;
+}
+
+ul {
+    list-style-type: none;
+    width: 750px;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    background-color: Lime;
+}
+
+.Neon-wrap {
+    position: relative;
+}
+.centered {
+    text-align: center;
+}
+
+#Semantic{
+}
+div#top-nav {
+    margin: 0 auto;
+}
+#CSSPractice{
+}
+
+#FormPractice{
+}
+
+/*.Neon-wrap:before {*/
+/*    content: ' ';*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    opacity: 0.6;*/
+/*    background-image: url("../NeonImage.jpeg");*/
+/*    background-repeat: repeat;*/
+/*    background-position: 50% 0;*/
+/*    background-size: auto;*/
+/*}*/
+
+.Neon-content {
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    color: greenyellow;
+}
+
+h2{
+    color: aqua;
+}
+
+iframe {
+    color: gold;
+}
+
+#MyExperience {
+}
+body{
+    background-color: royalblue;
+}
+
+#MyExperience h1{
+    color: yellow;
+}
+
+#MyExperience p{
+    color: greenyellow;
+}
+
+#PastAssignments html, body {
+    width: 100%;
+    height: 100%;
+    background-color: skyblue
+}
+
+#PastAssignments h1{
+    color: orange;
+}
+
+#PastAssignments h2{
+    color: yellow;
+}
+
+#CSS_Explained {
+}
+h2 {
+    color: darkorange;
+}
+
+h4 {
+    font-size: 50px;
+
+}
+
+#My_Interests {
+}
+body{
+    background-color: dodgerblue;
+}
+
+h1{
+    color: greenyellow;
+}
+
+
+
+
