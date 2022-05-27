@@ -1,10 +1,21 @@
-.testing{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255,255,255, 0.5)), url("../NeonImage.jpeg");
+.testing::before{
+    background-image: linear-gradient(rgba(255, 250, 155, 0.7), rgba(255,255,255, 0.5)), url("../NeonImage.jpeg");
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: auto;
+    opacity: 0.8;
+}
+
+.Neon-wrap {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     opacity: 0.6;
+    background-image: url("../NeonImage.jpeg");
+    background-size: cover;
 }
 
 ul {
@@ -38,26 +49,12 @@ li a {
 div#top-nav {
     margin: 0 auto;
 }
+
 #CSSPractice{
 }
 
 #FormPractice{
 }
-
-/*.Neon-wrap:before {*/
-/*    content: ' ';*/
-/*    display: block;*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    opacity: 0.6;*/
-/*    background-image: url("../NeonImage.jpeg");*/
-/*    background-repeat: repeat;*/
-/*    background-position: 50% 0;*/
-/*    background-size: auto;*/
-/*}*/
 
 .Neon-content {
     text-align: center;
@@ -105,7 +102,27 @@ body{
 }
 
 #CSS_Explained {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
+
+.CSS_Explained td,.CSS_Explained th {
+    border: 1px solid #ddd;
+    padding: 11px;
+}
+
+#CSS{font-size: 60px}
+
+.CSS_Explained th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: Black;
+    color: white;
+}
+
+
 h2 {
     color: darkorange;
 }
@@ -117,6 +134,26 @@ h4 {
 
 #My_Interests {
 }
+.My_Interests {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.My_Interests td,.My_Interests th {
+    border: 1px solid #ddd;
+    padding: 11px;
+}
+
+.My_Interests th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: Black;
+    color: white;
+}
+
 body{
     background-color: dodgerblue;
 }
@@ -124,6 +161,7 @@ body{
 h1{
     color: greenyellow;
 }
+
 
 
 
